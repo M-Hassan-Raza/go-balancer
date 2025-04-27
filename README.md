@@ -51,9 +51,9 @@ go run loadbalancer.go
 Start multiple backend servers on different ports:
 
 ```
-SERVER_PORT=8081 go run backend.go
-SERVER_PORT=8082 go run backend.go
-SERVER_PORT=8083 go run backend.go
+SERVER_PORT=8081 go run server.go
+SERVER_PORT=8082 go run server.go
+SERVER_PORT=8083 go run server.go
 ```
 
 Start the admin dashboard:
